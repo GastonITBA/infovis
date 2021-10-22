@@ -2,3 +2,7 @@ encodings
 stream graphs
 box-and-whisker
 crowdsourced 
+brushing-and-linking
+Choropleth
+Adjacency diagrams
+Squarified 
