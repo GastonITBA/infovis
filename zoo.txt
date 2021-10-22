@@ -6,3 +6,11 @@ brushing-and-linking
 Choropleth
 Adjacency diagrams
 Squarified 
+force-directed layouts
+circle-packing
+Enclosure
+sunburst
+icicle
+dendrogram
+Dorling
+Parallel coordinates
