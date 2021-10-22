@@ -1,5 +1,4 @@
-Leer este paper: https://homes.cs.washington.edu/~jheer/files/zoo/
-y generar un conjunto de palabras nuevas y guardarlas en github con un texto plano
-generar el archivo en cada github y lo llaman zoo.txt
-
-Palabras nuevas:
+encodings
+stream graphs
+box-and-whisker
+crowdsourced 
