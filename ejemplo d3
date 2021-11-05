@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>mini ejemplo con d3.js</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+  <div id="vis"></div>
+    
+<script>
+var url = "https://covid19api.it.itba.edu.ar/api/v0.3.0/provinces";
+
+d3.json(url).then(function(data) {
+  // console.log(data);
+  
+  d3.select("div#vis").append("ol");
+
+  d3.select('ol').selectAll("li").data( data )
+  .join("li")
+  .text((d) => d.province);
+
+});  
+</script>  
+  
+</body>
+</html>
